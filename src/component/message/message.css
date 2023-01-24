@@ -1,0 +1,25 @@
+.btn-wrap {
+    height: 30px;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 25%;
+    background-color: blueviolet;
+    color: #fff;
+    width: 50%;
+    height: 50px;
+    font-size: 22px;
+}
+.btn-wrap:hover {
+    background-color: rgb(78, 1, 122);
+    cursor: pointer;
+}
+.win-text {
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(0, 255, 76);
+}
+.loss-text {
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(240, 44, 44);
+}

@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.Game-window {
+  width: 400px;
+  height: 500px;
+  border: solid 1px #fff;
+  border-radius: 15px;
+  position: relative;
+}
+.input-cmp {
+  height: 30px;
+  padding: 5px;
+  outline: 0;
+  border: 0;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+}
+.input-btn {
+  height: 30px;
+  padding: 10px;
+  border: 0;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 20px;
+  height: 40px;
+  width: 40%;
+  margin-top: 15%;
+  background-color: rgb(5, 255, 5);
+}
+.input-btn:hover {
+  background-color: rgb(1, 99, 14);
+  cursor: pointer;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top: solid 1px #fff;
+}
+.footer-result {
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+  height: 70px;
+}
+.Game-title {
+  color: rgb(150, 124, 243);
+}
